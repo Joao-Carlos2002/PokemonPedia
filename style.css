@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    background-color: #ffea00;
+}
+
+.container {
+    background-color: #000;
+    border: 100px solid #ff7700;
+}
+
+.navbar {
+    margin: 0 3px 0 3px;
+    display: flex;
+    max-height: 5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5500;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #ff7700, #ff7700);
+    box-shadow: 0px 10px 40px #797979,
+        0px 10px 40px #ffea00;
+}
+
+#logo {
+    width: 7rem;
+    padding: 0 1.5rem;
+    height: 4.9rem;
+    background-color: #ff7700;
+}
+
+a {
+    padding-right: 0.5rem;
+    text-decoration: none;
+    color: #000;
+    background-color: #ff7700;
+}
+
+#pokedex,
+#characters,
+#city {
+    padding: 1.53rem 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #ff7700;
+}
+
+#logo:hover {
+    color: #fff;
+    border-radius: 20px;
+    background-color: #FF0000;
+}
+
+#pokedex:hover {
+    color: #fff;
+    background-color: #FF0000;
+    border-radius: 20px;
+}
+
+#characters:hover {
+    color: #fff;
+    background-color: #FF0000;
+    border-radius: 20px;
+}
+
+#city:hover {
+    color: #fff;
+    background-color: #FF0000;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: #000;
+    background-color: #ff7700;
+}
+
+.container {
+    background-color: #cc2010;
+}
+
+#title {
+    padding: 3rem 42%;
+}
+
+/* Ginásios */
+.gyms {
+    font-size: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#title-gym {
+    padding: 3rem 42%;
+    font-size: 1.8rem;
+}
+
+#ginasios {
+    display: flex;
+    flex-wrap: wrap;
+    width: 17rem;
+    height: 10rem;
+    padding: 1.8rem;
+}
