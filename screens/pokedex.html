@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <script src="/script.js"></script>
+    <link rel="stylesheet" href="/styles/style-pokedex.css">
     <title>Pokemon Pedia - Pokedex</title>
 </head>
 
@@ -25,6 +24,22 @@
             <h3 id="city">Ginásios</h3>
         </a>
     </header>
+    <section class="container">
+        <form class="form-group">
+            <label>Digite o nome ou o número do Pokémon:</label>
+            <input type="text" autocomplete="off" id="name" placeholder="Ex: Pikachu ou 25" required>
+            <input type="submit" value="Buscar">
+        </form>
+        <div class="container-pokemon">
+            <div id="content">
+                ...
+            </div>
+            <div id="pokemon-content">
+               
+            </div>
+        </div>
+    </section>
+    <script src="/script.js"></script>
 </body>
 
 </html>
