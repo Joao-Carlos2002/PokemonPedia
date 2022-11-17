@@ -11,32 +11,21 @@
 
 <body>
     <header class="navbar">
-        <a href="/screens/inicio.html">
+        <a href="/screens/pokedex.html">
             <img id="logo" src="/images/Logo.png">
         </a>
-        <a href="/screens/pokedex.html">
-            <h3 id="pokedex">Pokédex</h3>
-        </a>
-        <a href="/screens/personagens.html">
-            <h3 id="characters">Personagens</h3>
-        </a>
-        <a href="/screens/ginasios.html">
-            <h3 id="city">Ginásios</h3>
-        </a>
     </header>
-    <section class="container">
+    <section id="container">
         <form class="form-group">
             <label>Digite o nome ou o número do Pokémon:</label>
             <input type="text" autocomplete="off" id="name" placeholder="Ex: Pikachu ou 25" required>
             <input type="submit" value="Buscar">
         </form>
-        <div class="container-pokemon">
+        <div id="container-pokemon">
             <div id="content">
                 ...
             </div>
-            <div id="pokemon-content">
-               
-            </div>
+            <div id="pokemon-content"></div>
         </div>
     </section>
     <script src="/script.js"></script>
